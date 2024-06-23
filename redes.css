@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif; /* Ejemplo de fuente, puedes cambiarla según tus preferencias */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Color de fondo de la página */
+}
+
+header {
+    background-color: #ffffff; /* Color de fondo del encabezado */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra ligera bajo el encabezado */
+    position: relative; /* Para poder posicionar el footer correctamente */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333; /* Color de los enlaces */
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: #ff6600; /* Color al pasar el mouse por encima */
+}
+
+.box {
+    padding: 20px;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li a {
+    display: block;
+    width: 40px; /* Ancho del icono */
+    height: 40px; /* Alto del icono */
+    background-color: #333333; /* Color de fondo del ícono */
+    border-radius: 50%; /* Para hacer un círculo */
+    text-align: center;
+    line-height: 40px; /* Para centrar verticalmente */
+}
+
+.social-icons li a img {
+    width: 20px; /* Tamaño del ícono dentro del círculo */
+    height: 20px;
+    padding: 10px;
+}
+
+.social-icons li a:hover {
+    background-color: #666666; /* Color de fondo al pasar el mouse */
+}
